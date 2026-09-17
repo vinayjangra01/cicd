@@ -8,6 +8,6 @@ describe('GET /', () => {
       .get('/')
       .expect(200);
 
-    expect(res.text).toBe('Works on all machine.');
+    expect(res.text).toBe('Works on this machine.');
   });
 });
