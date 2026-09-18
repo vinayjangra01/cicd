@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
     "test": "npx jest ./app.test.js",
     "start": "node server.js"
   },
@@ -15,5 +17,8 @@
     "@jest/globals": "^30.5.1",
     "express": "^5.2.1",
     "supertest": "^7.2.2"
+  },
+  "devDependencies": {
+    "prettier": "3.9.8"
   }
 }
